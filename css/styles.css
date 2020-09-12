@@ -1,0 +1,34 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat',
+        sans-serif;
+    background: url(../images/header.jpg)center/cover no-repeat fixed;
+}
+
+.header-text {
+    margin-top: 15%;
+    font-size: 2.75rem;
+}
+
+hr {
+    border-color: tomato;
+    max-width: 65px;
+    height: 3px;
+    margin-top: 15%;
+}
+
+button {
+    background: tomato !important;
+    border-radius: 40px !important;
+    width: 13rem;
+    padding: 13px 11px !important;
+    font-size: 1.15rem;
+    margin-top: -0.25rem;
+}
+
+button:hover {
+    background-color: #ff5722 !important;
+    transform: scale(1.1)
+}
